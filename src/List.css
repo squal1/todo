@@ -1,0 +1,11 @@
+.List {
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+    background-color: #fdffed;
+    overflow-y: auto;
+}
+
+.List_Task {
+    padding: 1px;
+}

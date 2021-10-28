@@ -1,0 +1,17 @@
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    border-right: 2px solid lightgray;
+    align-items: center;
+    background-color: #fcffdf;
+    overflow-y: auto;
+    
+}
+
+.Sidebar_button > Button{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    max-height: 5em;
+    min-height: 5em;
+}

@@ -1,0 +1,31 @@
+.Task {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid palegoldenrod;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.Content {
+    word-break: break-all;
+}
+
+.Task_Buttons {
+    display: flex;
+}
+
+.CheckCircleIcon:hover {
+    color: green;
+}
+
+.DeleteIcon:hover {
+    color: red;
+}
+
+.Add_Task {
+    display: flex;
+    border-bottom: 1px solid palegoldenrod;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}

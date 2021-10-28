@@ -1,0 +1,12 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100vw;
+    border-bottom: 1px solid lightgray;
+}
+
+.Navbar > h2 {
+    margin-left: auto;
+    margin-right: auto;
+}

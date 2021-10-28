@@ -1,0 +1,28 @@
+.App {
+  display: grid;
+  place-items: center; /* Let body sit at the center*/
+  background-color: #fefffa;
+  height: 100vh;
+}
+
+.App_body {
+  display: flex;
+  background-color: #ffffff;
+  margin-top: -10px;
+  height: 95vh; /* Height sets to 95% */
+  width: 70vw; /* width sets to 70% */
+  box-shadow: 2px 3px 20px -10px black;
+  flex-direction: column;
+
+}
+
+.Header {
+  display: flex;
+  height: 15vh;
+}
+
+.Body {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+}
